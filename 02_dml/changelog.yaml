@@ -1,0 +1,10 @@
+databaseChangeLog:
+
+  - changeSet:
+      id: 006-insert-category
+      author: julian
+      changes:
+        - insert:
+            tableName: category
+            columns:
+              - column: { name: name, value: "Tropicales" }
