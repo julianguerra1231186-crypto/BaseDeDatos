@@ -1,5 +1,6 @@
-<img width="1920" height="1080" alt="Captura de pantalla (522)" src="https://github.com/user-attachments/assets/d4b55443-50ec-4534-9afa-2f9b36985891" />
+
 # 🧃 PulpApp - Sistema Distribuido (Base de Datos con Liquibase)
+
 
 ## 📌 Descripción General
 
@@ -111,8 +112,22 @@ Relaciones:
 * `order_items → products`
 
 ---
+1. Empezamos con la creacion de la carpeta BaseDeDatos:
+![](https://github.com/julianguerra1231186-crypto/BaseDeDatos/blob/main/img/Captura%20de%20pantalla%20(523).png)
+2. Creamos los archivos, changelog-master.yaml
+![](https://github.com/julianguerra1231186-crypto/BaseDeDatos/blob/main/img/Captura%20de%20pantalla%20(526).png)
+3. Verificamos que se halla subido a docker
+![](https://github.com/julianguerra1231186-crypto/BaseDeDatos/blob/main/img/Captura%20de%20pantalla%20(528).png)
+4. Creamos el Server. en pg4Admin
+![](https://github.com/julianguerra1231186-crypto/BaseDeDatos/blob/main/img/Captura%20de%20pantalla%20(543).png)
+5. Ejecutamos el liquibase, pero nos voto un error el cual no nos dejo avanzar
+![](https://github.com/julianguerra1231186-crypto/BaseDeDatos/blob/main/img/Captura%20de%20pantalla%20(543).png)
+
+---
 
 ## ❌ Problemas encontrados y soluciones
+5. Ejecutamos el liquibase, pero nos voto un error el cual no nos dejo avanzar
+![](https://github.com/julianguerra1231186-crypto/BaseDeDatos/blob/main/img/Captura%20de%20pantalla%20(563).png)
 
 ### 1. Error YAML (estructura incorrecta)
 
