@@ -221,6 +221,10 @@ volumes:
 ```
 
 ---
+6. lo solucionamos: 
+![](https://github.com/julianguerra1231186-crypto/BaseDeDatos/blob/main/img/Captura%20de%20pantalla%20(564).png)
+
+---
 
 ## ✅ Resultado Final
 
@@ -234,6 +238,10 @@ Liquibase: Update has been successful
 * ✔ Tablas creadas
 * ✔ Datos insertados
 * ✔ Historial almacenado
+
+
+6. Abrimos nuestra base de datos: 
+![](https://github.com/julianguerra1231186-crypto/BaseDeDatos/blob/main/img/Captura%20de%20pantalla%20(565).png)
 
 ---
 
@@ -288,5 +296,3 @@ Este enfoque es utilizado en entornos profesionales y facilita la integración c
 Proyecto académico - Sistemas Distribuidos
 
 ---
-
-🔥 Proyecto listo para entrega y sustentación 🔥
