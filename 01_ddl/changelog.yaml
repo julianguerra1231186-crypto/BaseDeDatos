@@ -16,6 +16,9 @@ databaseChangeLog:
               - column:
                   name: name
                   type: VARCHAR(100)
+      rollback:
+        - dropTable:
+            tableName: category
 
   - changeSet:
       id: 002-create-products
@@ -45,6 +48,11 @@ databaseChangeLog:
             baseColumnNames: category_id
             referencedTableName: category
             referencedColumnNames: id
+            constraintName: fk_products_category
+
+      rollback:
+        - dropTable:
+            tableName: products
 
   - changeSet:
       id: 003-create-users
@@ -62,6 +70,9 @@ databaseChangeLog:
               - column:
                   name: name
                   type: VARCHAR(255)
+      rollback:
+        - dropTable:
+            tableName: users
 
   - changeSet:
       id: 004-create-orders
@@ -79,6 +90,9 @@ databaseChangeLog:
               - column:
                   name: user_id
                   type: BIGINT
+      rollback:
+        - dropTable:
+            tableName: orders
 
   - changeSet:
       id: 005-create-order-items
@@ -99,3 +113,6 @@ databaseChangeLog:
               - column:
                   name: product_id
                   type: BIGINT
+      rollback:
+        - dropTable:
+            tableName: order_items
